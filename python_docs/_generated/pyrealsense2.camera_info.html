@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>pyrealsense2.camera_info &mdash; pyrealsense2 2.22.0 documentation</title>
+    <title>pyrealsense2.camera_info &mdash; pyrealsense2 2.28.1 documentation</title>
     
     <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     '2.22.0',
+        VERSION:     '2.28.1',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -23,7 +23,7 @@
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
-    <link rel="top" title="pyrealsense2 2.22.0 documentation" href="../index.html" /> 
+    <link rel="top" title="pyrealsense2 2.28.1 documentation" href="../index.html" /> 
   </head>
   <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
@@ -35,7 +35,7 @@
         <li class="right" >
           <a href="../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../index.html">pyrealsense2 2.22.0 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../index.html">pyrealsense2 2.28.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -77,22 +77,28 @@
 <tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.advanced_mode" title="pyrealsense2.camera_info.advanced_mode"><code class="xref py py-obj docutils literal"><span class="pre">advanced_mode</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.camera_locked" title="pyrealsense2.camera_info.camera_locked"><code class="xref py py-obj docutils literal"><span class="pre">camera_locked</span></code></a></td>
+<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.asic_serial_number" title="pyrealsense2.camera_info.asic_serial_number"><code class="xref py py-obj docutils literal"><span class="pre">asic_serial_number</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.debug_op_code" title="pyrealsense2.camera_info.debug_op_code"><code class="xref py py-obj docutils literal"><span class="pre">debug_op_code</span></code></a></td>
+<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.camera_locked" title="pyrealsense2.camera_info.camera_locked"><code class="xref py py-obj docutils literal"><span class="pre">camera_locked</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.firmware_version" title="pyrealsense2.camera_info.firmware_version"><code class="xref py py-obj docutils literal"><span class="pre">firmware_version</span></code></a></td>
+<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.debug_op_code" title="pyrealsense2.camera_info.debug_op_code"><code class="xref py py-obj docutils literal"><span class="pre">debug_op_code</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.name" title="pyrealsense2.camera_info.name"><code class="xref py py-obj docutils literal"><span class="pre">name</span></code></a></td>
+<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.firmware_version" title="pyrealsense2.camera_info.firmware_version"><code class="xref py py-obj docutils literal"><span class="pre">firmware_version</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.physical_port" title="pyrealsense2.camera_info.physical_port"><code class="xref py py-obj docutils literal"><span class="pre">physical_port</span></code></a></td>
+<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.name" title="pyrealsense2.camera_info.name"><code class="xref py py-obj docutils literal"><span class="pre">name</span></code></a></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.product_id" title="pyrealsense2.camera_info.product_id"><code class="xref py py-obj docutils literal"><span class="pre">product_id</span></code></a></td>
+<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.physical_port" title="pyrealsense2.camera_info.physical_port"><code class="xref py py-obj docutils literal"><span class="pre">physical_port</span></code></a></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.product_id" title="pyrealsense2.camera_info.product_id"><code class="xref py py-obj docutils literal"><span class="pre">product_id</span></code></a></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#pyrealsense2.camera_info.product_line" title="pyrealsense2.camera_info.product_line"><code class="xref py py-obj docutils literal"><span class="pre">product_line</span></code></a></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="#pyrealsense2.camera_info.recommended_firmware_version" title="pyrealsense2.camera_info.recommended_firmware_version"><code class="xref py py-obj docutils literal"><span class="pre">recommended_firmware_version</span></code></a></td>
@@ -109,6 +115,11 @@
 <dl class="attribute">
 <dt id="pyrealsense2.camera_info.advanced_mode">
 <code class="descname">advanced_mode</code><em class="property"> = camera_info.advanced_mode</em><a class="headerlink" href="#pyrealsense2.camera_info.advanced_mode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyrealsense2.camera_info.asic_serial_number">
+<code class="descname">asic_serial_number</code><em class="property"> = camera_info.asic_serial_number</em><a class="headerlink" href="#pyrealsense2.camera_info.asic_serial_number" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -139,6 +150,11 @@
 <dl class="attribute">
 <dt id="pyrealsense2.camera_info.product_id">
 <code class="descname">product_id</code><em class="property"> = camera_info.product_id</em><a class="headerlink" href="#pyrealsense2.camera_info.product_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyrealsense2.camera_info.product_line">
+<code class="descname">product_line</code><em class="property"> = camera_info.product_line</em><a class="headerlink" href="#pyrealsense2.camera_info.product_line" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -199,7 +215,7 @@
         <li class="right" >
           <a href="../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../index.html">pyrealsense2 2.22.0 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../index.html">pyrealsense2 2.28.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
